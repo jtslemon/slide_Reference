@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>베스킨라빈스 상단헤더 메인 슬라이드 구현</title>
+    <!-- 초기화 -->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+
+    <!-- 메인서식 -->
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+
+    <!-- 벤더프리픽스 -->
+    <script src="./script/prefixfree.min.js"></script>
+
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <!-- 스크립트 -->
+    <script src="./script/main.js"></script>
+</head>
+<body>
+    <!-- 상단헤더영역 -->
+    <header>
+        <div id="h_top">
+            <h1>
+                <a href="index.html" title="메인페이지로 바로가기">
+                    <img src="./images/logo_baskinrobbins.png" alt="상단로고">
+                </a>
+            </h1>
+        </div>
+
+        <div id="h_bottom">
+            <nav>
+                <ul class="lnb">
+                    <li><a href="login.html" title="로그인">login</a></li>
+                    <li><a href="join.html" title="회원가입">sing_in</a></li>
+                </ul>
+
+                <ul class="gnb">
+                    <li><a href="#" title="이달의 추천제품">flavor of the month</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#" title="이달의추천제품">
+                                    <img src="./images/img_monthly_fom_220930.png" alt="메뉴">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="메뉴">menu</a>
+                        <ul class="sub">
+                            <li><a href="#" title="아이스크림">아이스크림</a></li>
+                            <li><a href="#" title="아이스크림케이크">아이스크림케이크</a></li>
+                            <li><a href="#" title="음료">음료</a></li>
+                            <li><a href="#" title="커피">커피</a></li>
+                            <li><a href="#" title="디저트">디저트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="영양성분">영양 성분 및 알레르기</a>
+                        <ul class="sub">
+                            <li><a href="#" title="아이스크림">아이스크림</a></li>
+                            <li><a href="#" title="음료">음료</a></li>
+                            <li><a href="#" title="커피">커피</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="이벤트">event</a>
+                        <ul class="sub">
+                            <li><a href="#" title="진행중인이벤트">진행중인이벤트</a></li>
+                            <li><a href="#" title="당첨자발표">당첨자발표</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="매장찾기">store</a>
+                        <ul class="sub">
+                            <li><a href="#" title="매장찾기">매장찾기</a></li>
+                            <li><a href="#" title="고객센터">고객센터</a></li>
+                            <li><a href="#" title="단체주문">단체주문</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="소개">about</a>
+                        <ul class="sub">
+                            <li><a href="#" title="공지사항">공지사항</a></li>
+                            <li><a href="#" title="보도자료">보도자료</a></li>
+                            <li><a href="#" title="채용정보">채용정보</a></li>
+                            <li><a href="#" title="점포개설문의">점포개설문의</a></li>
+                            <li><a href="#" title="CONTACTUS">CONTACTUS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 메인콘텐츠 영역 -->
+    <main>
+        <article class="m_slide">
+            <ul>
+                <li><a href="#" title="기아 멤버스"><img src="./images/slide01.jpg" alt="슬라이드01"></a></li>
+                <li><a href="#" title="우주패스"><img src="./images/slide02.jpg" alt="슬라이드02"></a></li>
+                <li><a href="#" title="짱구&흰둥이 컨테이너"><img src="./images/slide03.jpg" alt="슬라이드03"></a></li>
+                <li><a href="#" title="짱구 실내용 슬리퍼"><img src="./images/slide04.jpg" alt="슬라이드04"></a></li>
+            </ul>
+            <i class="fas fa-angle-left"></i>
+            <i class="fas fa-angle-right"></i>
+            <p class="start_btn">start</p>
+            <p class="stop_btn">stop</p>
+        </article>
+    </main>
+
+    <!-- 하단푸터영역 -->
+    <footer></footer>
+</body>
+</html>
